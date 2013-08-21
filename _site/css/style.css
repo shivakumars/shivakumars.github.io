@@ -179,3 +179,17 @@ a, a:visited, a:hover, a:active {
     left: 0;
     right: 0;
 }
+
+/*Blog CSS*/
+.blogTitle{
+	text-align: center;
+	font-size: 24px;
+	font-family: Roboto-Bold;
+	color:#666;
+}
+.postItems{
+	text-align: center;
+	font-size: 18px;
+	font-family: Roboto-Regular;
+	color:#666;
+}
