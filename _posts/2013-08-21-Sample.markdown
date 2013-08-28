@@ -1,8 +1,8 @@
 ---
 layout: blogpages
-title:  "Sample Post"
-date:   2013-08-21 22:21:58
+title: "ORMLite - Simple Usage Guide"
+date: {}
 categories: jekyll update
+published: true
 ---
-
 
