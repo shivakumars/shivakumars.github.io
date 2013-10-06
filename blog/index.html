@@ -1,0 +1,17 @@
+---
+layout: myblog
+title: shivakumars.in
+---
+
+<div id="home">
+  <div class="blogTitle">Blog Posts</div>
+  <br>
+  <div class="postbar" id="accordion">
+    {% for post in site.posts %}
+    <h3>{{ post.date | date_to_string }}</h3>
+    	<div class="postItems">
+    		<a href="{{ post.url }}">{{ post.title }}</a>
+    	</div>
+    {% endfor %}
+  </div>
+</div>

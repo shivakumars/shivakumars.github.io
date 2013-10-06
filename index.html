@@ -1,16 +1,52 @@
----
-layout: myblog
-title: shivakumars.in
----
+<html>
+<head>
+  <meta http-equiv="no-cache">
+  <meta http-equiv="Expires" content="-1">
+  <meta http-equiv="Cache-Control" content="no-cache">
+	<title>Shivakumars.in</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script type="text/javascript">
 
-<div id="home">
-  <div class="blogTitle">Blog Posts</div>
-  <br>
-  <div>
-    {% for post in site.posts %}
-    	<div class="postItems">
-    		<a href="{{ post.url }}">{{ post.title }}</a>
-    	</div>
-    {% endfor %}
-  </div>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32573044-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div class="header">
+
+<a href="index.html"><div class="headPane">Home</div></a>
+<a href="contributions.html"><div class="headPane">Contributions</div></a>
+<a href="http://blog.shivakumars.in"><div class="headPane">Blog</div></a>
 </div>
+
+<div class="profilePic"></div>
+<div class="titleCapt">Mobile Application Developer</div>
+<div class="subTitleCapt">
+
+<img src="http://thecustomizewindows.com/wp-content/uploads/2011/11/Best-Android-Apps-List-of-50-Free-Android-Apps.png" class="skillImg"/>
+
+<img src="http://thinkmobile.appcelerator.com/Portals/164416/images/appc_stacked.png" class="skillImg"/>
+
+
+
+
+</div>
+
+<div class="socialBar">
+	<a href="https://www.facebook.com/shiva.s.kumar"><div class="fbBtn"></div></a>
+	<a href="https://twitter.com/shivakumars_"><div class="twBtn"></div></a>
+	<a href="http://www.linkedin.com/in/shivakumar4"><div class="lnBtn"></div></a>
+	<a href="mailto:shivas.mobi@gmail.com"><div class="maBtn"></div></a>
+</div>
+
+<div class="footer">Copyright by Shivakumars.in</div>
+</body>
+</html>

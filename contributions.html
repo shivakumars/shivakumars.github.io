@@ -1,0 +1,84 @@
+<html>
+<head>
+	<meta http-equiv="no-cache">
+	<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<title>Shivakumars.in</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script type="text/javascript" 
+   src="jquery-2.0.3.min.js"></script>
+   <script type="text/javascript" src="jquery.githubRepoWidget.min.js"></script>
+	<!--<script type="text/javascript">
+	$.ajax({
+        type: "GET",
+        url: "https://api.github.com/users/shivakumars/repos",
+        success: function(response) { 
+            for(var i=0;i<response.length;i++){
+            	if(!response[i].fork && (response[i].name.indexOf("shivakumars") == -1)){
+            		var title = response[i].name;
+            		var desc = response[i].description;
+            		var link = response[i].html_url;
+            		var leftImg = "";
+
+            		if(title.indexOf("Crittercism")!=-1){
+            			leftImg = "http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0010/9491/109491v10-max-250x250.png";
+            		}
+            		else if(title.indexOf("Count")!=-1){
+            			leftImg = "https://0.gravatar.com/avatar/935f0aed5f750fe307e73aae8c2478d9?d=https%3A%2F%2Fidenticons.github.com%2Fb21c64b505065385105ff662196134de.png&s=400";
+            		}
+            		else
+            		{
+            			leftImg = "https://lh5.ggpht.com/zHr5MCDpDiMc3AX3dMZG660Cx3nFbOln_fQ7lHZEO4Su8UiG6f8mLIuAZiRWnGGtkUBu=w300";
+            		}
+
+            		var item =
+            		'<a href="'+link+'">'+
+            		'<div class="contributionItem">'+
+            		'<div class="leftImg"><img class="companyLogo" src="'+leftImg+'"/></div>'+
+            		'<div class="contributionItemText">'+
+            		'<div class="contributionItemTitle">'+title+'</div>'
+            		+'<div class="contributionItemDesc">'+desc+'</div>'
+            		+'</div></div></a>';
+
+
+            		//'<div class="separator"></div>';
+
+
+            		$(".tableView").append(item+"<br>");
+            	}
+            		
+            }
+        }
+    });
+
+	</script>-->
+	
+</head>
+<body> 
+<div class="header">
+
+<a href="index.html"><div class="headPane">Home</div></a>
+<a href="#"><div class="headPane">Contributions</div></a>
+<a href="http://blog.shivakumars.in"><div class="headPane">Blog</div></a>
+</div>
+
+
+<!--<div class="titleCapt">Will be updating soon...</div>
+≈<br>
+<div class="contributionTitle">Crittercism</div>
+<div class="contributionItem">I have created a Titanium Appcelerator Module for Critter Android SDK. The module wraps the Crittercism SDK's functions and makes it available to titanium. I have made it Free and Opensource with <b>Apache License</b>. Its available on <a href="https://github.com/shivakumars/Titanium-Crittercism-Android">Github</a></div>-->
+<br>
+
+<div class="tableView1">
+<div class="github-widget" data-repo="shivakumars/Titanium-Android-Count.ly"></div>
+<br>
+<div class="github-widget" data-repo="shivakumars/Titanium-Crittercism-Android"></div>
+<br>
+<div class="github-widget" data-repo="shivakumars/Titanium-Android-Audio-Recorder-and-Player"></div>
+
+</div>
+
+
+<div class="footer">Copyright by Shivakumars.in</div>
+</body>
+</html>
